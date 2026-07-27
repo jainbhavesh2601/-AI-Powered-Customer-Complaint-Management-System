@@ -1,0 +1,26 @@
+# Environments and API Keys (CRITICAL TO HIDE)
+.env
+backend/.env
+frontend/.env
+
+# Python / Backend
+backend/venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Node / Frontend
+frontend/node_modules/
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
